@@ -884,61 +884,52 @@
         </p>
       </div>
 
-      <!-- NEW: sidebar card with widget -->
-      <div class="sidebar-card">
-        <h2 class="card-title" style="font-size:1rem;margin-bottom:0.4rem;">
-          WG-FINDER – Profilcheck &amp; Match
-        </h2>
-        <p class="sidebar-note" style="margin-top:0.2rem;">
-          Basierend auf deinem Profilfragebogen: Wie gut passen deine
-          Präferenzen zu dieser WG?
-        </p>
-
-        <div class="wg-widget">
-          <header class="wg-widget__header">
-            <div class="wg-widget__title-row">
-              <span class="wg-widget__eyebrow">WG-FINDER</span>
-              <h2 class="wg-widget__title">WG-Matchcheck</h2>
-            </div>
-            <p class="wg-widget__subtitle">
-              Wie gut passen deine Präferenzen zu dieser WG?
-            </p>
-          </header>
-
-          <div class="wg-widget__overall">
-            <div class="wg-widget__overall-circle">
-              <span id="overallScore" class="wg-widget__overall-value">--</span>
-              <span class="wg-widget__overall-unit">%</span>
-            </div>
-            <div id="overallLabel" class="wg-widget__overall-label">
-              Noch keine Daten
-            </div>
+           <!-- WG-Match Widget (ein einzelner Kasten im Sidebar) -->
+      <div class="wg-widget">
+        <header class="wg-widget__header">
+          <div class="wg-widget__title-row">
+            <span class="wg-widget__eyebrow">WG-FINDER</span>
+            <h2 class="wg-widget__title">WG-Matchcheck</h2>
           </div>
-
-          <div class="wg-widget__legend">
-            <span class="legend-item">
-              <span class="legend-dot legend-dot--strong"></span>
-              starker Match
-            </span>
-            <span class="legend-item">
-              <span class="legend-dot legend-dot--medium"></span>
-              neutral
-            </span>
-            <span class="legend-item">
-              <span class="legend-dot legend-dot--weak"></span>
-              Konfliktpotenzial
-            </span>
-          </div>
-
-          <ul id="dimensionList" class="wg-widget__dimensions">
-            <!-- per-dimension rows will be injected here -->
-          </ul>
-
-          <p id="statusMessage" class="wg-widget__status">
-            Bitte fülle zuerst den Profilfragebogen aus.
+          <p class="wg-widget__subtitle">
+            Wie gut passen deine Präferenzen zu dieser WG?
           </p>
+        </header>
+
+        <div class="wg-widget__overall">
+          <div class="wg-widget__overall-circle">
+            <span id="overallScore" class="wg-widget__overall-value">--</span>
+            <span class="wg-widget__overall-unit">%</span>
+          </div>
+          <div id="overallLabel" class="wg-widget__overall-label">
+            Noch keine Daten
+          </div>
         </div>
+
+        <div class="wg-widget__legend">
+          <span class="legend-item">
+            <span class="legend-dot legend-dot--strong"></span>
+            starker Match
+          </span>
+          <span class="legend-item">
+            <span class="legend-dot legend-dot--medium"></span>
+            neutral
+          </span>
+          <span class="legend-item">
+            <span class="legend-dot legend-dot--weak"></span>
+            Konfliktpotenzial
+          </span>
+        </div>
+
+        <ul id="dimensionList" class="wg-widget__dimensions">
+          <!-- per-dimension rows will be injected here -->
+        </ul>
+
+        <p id="statusMessage" class="wg-widget__status">
+          Bitte fülle zuerst den Profilfragebogen aus.
+        </p>
       </div>
+
     </aside>
 
     <!-- MAIN COLUMN -->
